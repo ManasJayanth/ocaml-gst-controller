@@ -18,7 +18,7 @@ let files_suffix = "Raw"
 
 (** Instead of generate all the data structures (and theirs related methods or
  *  constants), the idea is to choose what is needed. *)
-let data_structures = ["InterpolationControlSource"]
+let data_structures = ["InterpolationControlSource"; "TimedValueControlSource"]
 
 (*  "Toc"; "Device"; "Buffer"; "Element"; "Structure"; "MiniObject"; "Caps"; "TagList";"Message"; "BufferPool"; "TocEntry"; "Memory"; "MapInfo"; "ElementFactory"; "ParentBufferMeta"; "Bus";  *)
 
