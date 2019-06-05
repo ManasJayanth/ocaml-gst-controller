@@ -18,4 +18,6 @@ depends: [
   "stdio"
   "configurator"
   "gi-glib2"
+  "gi-gobject"
+  "gi-gstreamer"
 ]
