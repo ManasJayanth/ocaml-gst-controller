@@ -1,5 +1,5 @@
 opam-version: "1.2"
-name: "gi-gstreamer"
+name: "gi-gst-controller"
 version: "~unknown"
 maintainer: "Manas Jayanth<prometheansacrifice@gmail.com>"
 authors: "Manas Jayanth <prometheansacrifice@gmail.com>"
