@@ -1,16 +1,8 @@
 (rule
- (targets Core_raw.ml Core_raw.mli
-          Interpolation_control_source.mli Interpolation_control_source.ml
-          Timed_value_control_source.mli Timed_value_control_source.ml)
- (deps    ../gen/gen.exe)
- (action  (run %{deps} -o %{targets})))
-
-(rule
  (targets c_flags.sexp
             c_library_flags.sexp)
   (deps    ../configurator/discover.exe)
   (action  (run %{deps})))
-
 
 (library
  (name        GstController)
